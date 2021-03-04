@@ -15,3 +15,5 @@ jobs:
           password: ${{ secrets.DOCKER_TOKEN }}
       - name: Docker Build Image
         run: docker build -t lazyguardian_action .
+      - name: Docker Push Image
+        run: echo "docker push kernelguardian/lazyguardian:$GITHUB_RUN_NUMBER"
