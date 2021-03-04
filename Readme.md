@@ -11,7 +11,7 @@ The docker container is prebuilt with python and some necessary packages listed 
 Run the command in shell to download and spinup a container.
 
 ```bash
-docker run -d -p 80:80 -p 8888:8888 kernelguardian/lazyguardian
+docker run -d -p 80:80 -p  8888:8888 kernelguardian/lazyguardian
 ```
 
 ## Word of advice
