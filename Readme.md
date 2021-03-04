@@ -1,6 +1,6 @@
 # LazyGuardian
 
-![docker build](https://github.com/asishRye/lazyguardian/blob/master/.github/workflows/docker.yml/badge.svg)
+![docker build](https://github.com/asishRye/lazyguardian/actions/workflows/docker.yml/badge.svg)
 
 LazyGuardian is a docker image that serves jupyter notebooks (more coming) from a docker container. This is served my a flask webapp running in the container.
 
